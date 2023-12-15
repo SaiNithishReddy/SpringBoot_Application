@@ -21,6 +21,7 @@ import com.vcube.trails.service.StudentService;
 import com.vcube.trails.service.StudentInterface;
 import com.vcube.exception.ResourceNotFoundException;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/sai")
 public class StudentController {
